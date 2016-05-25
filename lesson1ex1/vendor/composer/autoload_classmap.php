@@ -6,9 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Marvel\\Elmsford\\BaratheonofKingsLanding\\TommenBaratheon' => $baseDir . '/src/Marvel/Elmsford/BaratheonofKingsLanding/HenryJonathanPym.php',
-    'Marvel\\NewJersey\\Martell\\DoranMartel' => $baseDir . '/src/Marvel/NewJersey/Martell/Wasp.php',
-    'Marvel\\Asgard\\Harrenhal\\PetyrBaelish' => $baseDir . '/src/Marvel/Asgard/Harrenhal/Thor.php',
-    'Marvel\\NewYorkCity\\BaratheonofStormsEnd\\TommenI' => $baseDir . '/src/Marvel/NewYorkCity/BaratheonofStormsEnd/IronMan.php',
-    'Marvel\\Paterson\\Lannister\\CerseiLannister' => $baseDir . '/src/Marvel/Paterson/Lannister/WonderMan.php',
+    'Marvel\\Elmsford\\HenryJonathanPym' => $baseDir . '/src/Marvel/Elmsford/HenryJonathanPym.php',
+    'Marvel\\NewJersey\\Wasp' => $baseDir . '/src/Marvel/NewJersey/Wasp.php',
+    'Marvel\\Asgard\\Thor' => $baseDir . '/src/Marvel/Asgard/Thor.php',
+    'Marvel\\NewYorkCity\\IronMan' => $baseDir . '/src/Marvel/NewYorkCity/IronMan.php',
+    'Marvel\\Paterson\\WonderMan' => $baseDir . '/src/Marvel/Paterson/WonderMan.php',
+    'Marvel\\England\\CaptainBritain' => $baseDir . '/src/Marvel/England/CaptainBritain.php',
+    'Marvel\\Dundee\\Beast' => $baseDir . '/src/Marvel/Dundee/Beast.php',
 );
